@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!./.venv/bin/python3.11
 # -*- coding: utf-8 -*-
 
 """Phone Book application entry point script."""

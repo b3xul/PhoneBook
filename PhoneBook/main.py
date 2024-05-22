@@ -28,8 +28,8 @@ def db_connect():
         QMessageBox.critical(
             None,
             f"{APPLICATION_NAME}",
-            f"Unable to connect to {db_properties['DB_NAME']} database\n{con.lastError().driverText()}\
-            n{con.lastError().databaseText()}",
+            f"Unable to connect to {db_properties['DB_NAME']} database\n"
+            f"{con.lastError().driverText()}\n{con.lastError().databaseText()}",
         )
         sys.exit(1)
 

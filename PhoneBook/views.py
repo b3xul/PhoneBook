@@ -228,7 +228,6 @@ class EditorDialog(QDialog):
             self.invalidForm(formName)
             return False
 
-        print(eta)
         # All fields are valid
         self.currentPersona = Persona(nome, cognome, indirizzo, telefono, eta)
         return True

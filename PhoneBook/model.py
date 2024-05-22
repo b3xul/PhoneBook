@@ -15,7 +15,8 @@ class Persona:
         self.eta = eta
 
     def __str__(self):
-        return f"Nome: {self.nome}\nCognome: {self.cognome}\nIndirizzo: {self.indirizzo}\nTelefono: {self.telefono}\nEtà: {self.eta}"
+        return (f"Nome: {self.nome}\nCognome: {self.cognome}\nIndirizzo: {self.indirizzo}\nTelefono: {self.telefono}"
+                f"\nEtà: {self.eta}")
 
 
 class ContactsModel:
